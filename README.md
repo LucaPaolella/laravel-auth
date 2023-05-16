@@ -90,3 +90,9 @@ Questa repo template contiene una versione modificata del pacchetto `laravel/lar
 1. Aprire la repo su github
 2. Cliccare su `Settings`
 3. Spuntare la casella `Template repository`
+
+16/05
+Iniziamo con il definire il layout, modello, migrazione, controller e rotte necessarie per il sistema portfolio:
+1. Autenticazione: si parte con l'autenticazione e la creazione di un layout per back-office
+2. Creazione del modello Project con relativa migrazione, seeder, controller e rotte
+3. Per la parte di back-office creiamo un resource controller Admin\ProjectController per gestire tutte le operazioni CRUD dei progetti
