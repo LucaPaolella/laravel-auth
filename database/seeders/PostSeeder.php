@@ -4,17 +4,18 @@ namespace Database\Seeders;
 
 use App\Models\Post;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Faker\Generator as Faker;
 use Illuminate\Database\Seeder;
+use Faker\Generator as Faker;
+use Illuminate\Support\Str;
 
-class ProjectSeeder extends Seeder
+class PostSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      *
      * @return void
      */
-    /*public function run(Faker $faker )
+    public function run(Faker $faker )
     {
         for ($i = 0; $i < 10; $i++){
             $post = new Post ();
@@ -23,5 +24,7 @@ class ProjectSeeder extends Seeder
             $post -> slug = slug::slug($post->title,'-');
             $post -> save();
         }
-    }*/
+    }
 }
+
+/*$post -> slug = slug::slug($post->title,'-');*/
